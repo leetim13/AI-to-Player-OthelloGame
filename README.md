@@ -16,9 +16,9 @@ you will play and agent.py is the game agent you would like to play against.
 If you type `$python3 othello gui.py -d board size -a randy.py`, you will play against an agent that selects moves randomly, and that is named Randy. Playing a game should bring up a game window. If you play against a
 game agent, you and the agent will take turns.The GUI can take also take two AI programs as command line parameters. When two AIs are specified at the command line you can watch them play against each other. 
 
-MINIMAX: `$python3 othello gui.py -d 4 -a agent.py -m`
-ALPHA-BETA: `$python3 othello gui.py -d 4 -a agent.py`
-DEPTH-LIMIT: `$python3 othello gui.py -d 6 -a agent.py -l 5`
-CACHING: `$python3 othello gui.py -d 6 -a agent.py -c`
+MINIMAX: `$python3 othello gui.py -d 4 -a agent.py -m` \
+ALPHA-BETA: `$python3 othello gui.py -d 4 -a agent.py` \
+DEPTH-LIMIT: `$python3 othello gui.py -d 6 -a agent.py -l 5` \
+CACHING: `$python3 othello gui.py -d 6 -a agent.py -c`\
 NODE-ORDERING: `$python3 othello gui.py -d 8 -a agent.py -c -o.`
 
